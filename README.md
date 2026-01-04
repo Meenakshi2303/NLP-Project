@@ -23,22 +23,24 @@
 
 # News Article Classification system
 
-* Built a **news article classification system** to categorize articles into 10 topics such as Politics, Sports, Business, and Wellness
+* Built a **news article classification system** to categorize articles into 10 topics such as Politics, Sports, Business and Wellness
   
 * Used a **balanced dataset of 50,000 news articles** for robust training and evaluation
 
-* Applied NLP preprocessing including **lowercasing, punctuation removal, tokenization, stopword removal, and lemmatization**
+* Applied NLP preprocessing including **lowercasing, punctuation removal, tokenization, stopword removal and lemmatization**
 
-* Combined **headline, short description, and keywords** into a single textual feature for better context
+* Combined **headline, short description and keywords** into a single textual feature for better context
 
 * Extracted text features using **TF-IDF (10,000 features)**
 
-* Engineered additional features such as **word count, character count, and average word length**
+* Engineered additional features such as **word count, character count and average word length**
 
-* Trained and compared **Logistic Regression, Random Forest, and SVM models**
+* Trained and compared **Logistic Regression, Random Forest and SVM models**
 
 * Performed hyperparameter tuning using **RandomizedSearchCV**
+
 * **Logistic Regression** achieved the best performance with **~83% accuracy**
+
 * Implemented a pipeline to **predict categories for new user-entered news articles**
 
 

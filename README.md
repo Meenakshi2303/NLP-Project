@@ -1,5 +1,5 @@
 # NLP-Project
-# IMDb Movie Review Sentiment Analysis 🎬
+# IMDb Movie Review Sentiment Analysis
 
 This project performs **sentiment analysis on IMDb movie reviews** using NLP and Machine Learning.
 The dataset contains **50,000 balanced reviews** labeled as Positive or Negative.
